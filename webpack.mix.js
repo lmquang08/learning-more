@@ -1,5 +1,6 @@
 const mix = require('laravel-mix')
 const config = require('./webpack.config')
+require('mix-tailwindcss');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -15,7 +16,7 @@ mix.autoload({
   jquery: ['$', 'window.jQuery', 'jQuery'],
 })
 
-mix.js('resources/js/app.js', 'public/js').sass('resources/scss/app.scss', 'public/css').version()
+mix.js('resources/js/app.js', 'public/js').sass('resources/scss/app.scss', 'public/css').tailwind().version()
 mix.copy('resources/images/', 'public/images/')
  
 mix.js('resources/js/vue.js', 'public/js').vue().version()
