@@ -50,7 +50,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        ai: "url('/images/background/bg_ai.png')",
+        main: "url('/images/bg_main.jpg')",
         ai02: "url('/images/background/bg_ai02.png')",
       },
       backgroundSize: {
