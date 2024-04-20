@@ -6,4 +6,5 @@
         landing-page
         with ci/cd and more time
     </div>
+    @include('pages.home.include.type_travel')
 @stop

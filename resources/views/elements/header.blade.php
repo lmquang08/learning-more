@@ -1,4 +1,4 @@
-<nav class="bg-white py-3 px-4 md:py-4 md:px-4 mt-0 w-full page-header border-b-2 sticky top-0">
+<nav class="bg-white py-3 px-4 md:py-4 md:px-4 mt-0 w-full page-header border-b-2 sticky top-0 z-10">
     <div class="flex justify-between items-center relative">
         <div class="flex flex-col lg:flex-row items-center w-full lg:w-auto">
             <div class="h-8 md:h-12 w-56 md:w-[250px] lg:m-0 mx-auto">
