@@ -4,36 +4,36 @@
         <p class="text-base">Nulla massa nisl, aliquam sed ante porta, suscipit facilisis nulla.</p>
     </div>
     <div class="type_travel grid grid-cols-2 gap-4">
-        <div class="w-full h-[250px] bg-slate-300 flex justify-center items-center group">
+        <div class="w-full h-[250px] bg-[#f1f5f1] flex justify-center items-center group">
             <div class="bg-white p-3 group-hover:hidden">
                 Destinations
             </div>
             <div class="bg-white p-3 hidden group-hover:block">
-                Lear more!
+                Read more!
             </div>
         </div>
-        <div class="w-full h-[250px] bg-slate-300 flex justify-center items-center group">
+        <div class="w-full h-[250px] bg-[#f1f5f1] flex justify-center items-center group">
             <div class="bg-white p-3 group-hover:hidden">
                 Road Trips
             </div>
             <div class="bg-white p-3 hidden group-hover:block">
-                Lear more!
+                Read more!
             </div>
         </div>
-        <div class="w-full h-[250px] bg-slate-300 flex justify-center items-center group">
+        <div class="w-full h-[250px] bg-[#f1f5f1] flex justify-center items-center group">
             <div class="bg-white p-3 group-hover:hidden">
                 Secret Gems
             </div>
             <div class="bg-white p-3 hidden group-hover:block">
-                Lear more!
+                Read more!
             </div>
         </div>
-        <div class="w-full h-[250px] bg-slate-300 flex justify-center items-center group">
+        <div class="w-full h-[250px] bg-[#f1f5f1] flex justify-center items-center group">
             <div class="bg-white p-3 group-hover:hidden">
                 Tips & Tricks
             </div>
             <div class="bg-white p-3 hidden group-hover:block">
-                Lear more!
+                Read more!
             </div>
         </div>
     </div>
