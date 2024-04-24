@@ -3,18 +3,39 @@
         <div class="flex flex-col lg:flex-row items-center w-full lg:w-auto">
             <div class="h-8 md:h-12 w-56 md:w-[250px] lg:m-0 mx-auto">
                 <a href="/" class="h-full w-full flex items-center">
-                    <p class="text-3xl lg:ml-4">LOGO</p>
+                    <img src="{{ asset('/images/logo.png') }}" alt="logo" class="h-[70px]" />
                 </a>
             </div>
         </div>
+        <div>
+            <ul class="flex items-center header_menu">
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Pages</a>
+                </li>
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Destination</a>
+                </li>
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="text-base font-semibold hover:underline mx-4">Landing</a>
+                </li>
+            </ul>
+        </div>
         <div class="flex items-center">
-            @if(auth()->check())
-            @else
-                <a href="{{ route('login') }}" class="btn btn-outline-primary font-normal border btn-sm px-8 mr-4 btn-icon">Login</a>
-                <a href="" class="btn btn-primary font-normal btn-sm btn-icon px-8">
-                    Register<i class="fa fa-arrow-right fa-fw text-xs"></i>
-                </a>
-            @endif
+            <a class="mx-3" href="#" alt="">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a class="mx-3" href="#" alt="">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </div>
 </nav>
